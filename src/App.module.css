@@ -1,0 +1,23 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.gameArea{
+  position: relative;
+  width: 601px;
+  height: 601px;
+  border: 1px solid black;
+}
+
+.snake{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+}
